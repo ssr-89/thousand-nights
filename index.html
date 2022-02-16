@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/destyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Thousand sunny</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__container flex">
+        <a class="header__logo" href="#">
+          <svg width="41" height="41" viewbox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84" />
+            <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3" />
+          </svg>
+        </a>
+        <div class="header__menu flex">
+          <nav class="header__nav">
+            <ul class="header__list flex">
+              <li class="header__item">
+                <a class="header__link header__link__check" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#ways">
+                  Destinations
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">
+                  About
+                </a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#partner">
+                  Partner
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__btn btns">
+            <button class="header__btn btn header__btn--login btn">
+              Login
+            </button>
+            <button class="header__btn btn header__btn--register btn">
+              Register
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section-offset hero">
+      <div class="container">
+        <div class="hero__container">
+          <div class="hero__request">
+            <h1 class="hero__title">
+              Explore and Travel
+            </h1>
+            <p class="hero__descr">
+              Holiday finder
+            </p>
+            <div class="hero__border"></div>
+            <form class="hero__form flex" action="#" method="post">
+              <fieldset class="hero__fieldset">
+                <select class="hero__select" name="location">
+                  <option value="Location">Location</option>
+                </select>
+              </fieldset>
+              <fieldset class="hero__fieldset">
+                <select class="hero__select" name="Activity">
+                  <option value="Activity">Activity</option>
+                </select>
+              </fieldset>
+              <fieldset class="hero__fieldset">
+                <select class="hero__select" name="Grade">
+                  <option value="Grade">Grade</option>
+                </select>
+              </fieldset>
+              <fieldset class="hero__fieldset">
+                <select class="hero__select" name="Date">
+                  <option value="Date">Date</option>
+                </select>
+              </fieldset>
+              <button class="hero__btn btn">
+                Explore
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset about">
+      <div class="container">
+        <div class="about__container flex">
+          <div class="about__content">
+            <h2 class="title about__title">
+              A&nbsp;new way to&nbsp;explore the world
+            </h2>
+            <p class="about__descr">
+              For decades travellers have reached for Lonely Planet books when looking to&nbsp;plan and execute their
+              perfect trip, but now, they can also let Lonely Planet Experiences lead the way
+            </p>
+            <button class="about__btn btn">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset ways" id="ways">
+      <div class="container">
+        <div class="ways__container">
+          <div class="ways__top flex">
+            <h2 class="title ways__title">
+              Featured destinations
+            </h2>
+            <a class="ways__link flex" href="#">
+              <span class="ways__span">
+                View all
+              </span>
+              <svg width="6" height="11" viewbox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L5 5.5L1 10" stroke="#FB8F1D" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <div class="ways__content ways-content flex">
+            <div class="ways-content__indonesia">
+              <img class="ways-content__img ways-content__img--indonesia" src="img/ways/img1.png" alt="indonesia">
+              <div class="ways-content__text flex">
+                <p class="ways-content__descr">
+                  Raja Ampat
+                </p>
+                <span class="ways-content__span">
+                  Indonesia
+                </span>
+              </div>
+            </div>
+            <div class="ways-content__china">
+              <img class="ways-content__img ways-content__img--china" src="img/ways/img2.png" alt="china">
+              <div class="ways-content__text flex">
+                <p class="ways-content__descr">
+                  Fanjingshan
+                </p>
+                <span class="ways-content__span">
+                  China
+                </span>
+              </div>
+            </div>
+            <div class="ways-content__switzerland">
+              <img class="ways-content__img ways-content__img--switzerland" src="img/ways/img3.png" alt="switzerland">
+              <div class="ways-content__text flex">
+                <p class="ways-content__descr">
+                  Vevey
+                </p>
+                <span class="ways-content__span">
+                  Switzerland
+                </span>
+              </div>
+            </div>
+            <div class="ways-content__montenegro">
+              <img class="ways-content__img ways-content__img--montenegro" src="img/ways/img4.png" alt="Montenegro">
+              <div class="ways-content__text flex">
+                <p class="ways-content__descr">
+                  Skadar
+                </p>
+                <span class="ways-content__span">
+                  Montenegro
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset guide">
+      <div class="container">
+        <div class="guide__container">
+          <div class="quide__content">
+            <h2 class="title guide__title">
+              Guides by&nbsp;Thousand Sunny
+            </h2>
+            <p class="guide__descr">
+              Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android)
+              is&nbsp;the ultimate resource before and during a&nbsp;trip.
+            </p>
+            <button class="guide__btn btn">
+              Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset partner" id="partner">
+      <div class="container">
+        <div class="partner__container">
+          <h2 class="title partner__title">
+            Testimonials
+          </h2>
+          <div class="partner__content partner-content flex">
+            <div class="partner-content__left">
+              <div class="partner__stars">
+                <img class="partner__star" src="img/partner/star.png" alt="Рейтинг 5 из 5">
+                <img class="partner__star" src="img/partner/star.png" alt="">
+                <img class="partner__star" src="img/partner/star.png" alt="">
+                <img class="partner__star" src="img/partner/star.png" alt="">
+                <img class="partner__star" src="img/partner/star.png" alt="">
+              </div>
+              <p class="partner__descr">
+                &laquo;Quisque in&nbsp;lacus a&nbsp;urna fermentum euismod. Integer mi&nbsp;nibh, dapibus
+                ac&nbsp;scelerisque&nbsp;eu, facilisis quis purus. Morbi blandit sit amet turpis nec&raquo;
+              </p>
+              <p class="partner__name">
+                Edward Newgate
+              </p>
+              <p class="partner__founders">
+                Founder Circle
+              </p>
+            </div>
+            <div class="partner-content__right">
+              <button class="partner-content__btn">
+                <a class="partner-content__link partner-content__link--left" href="#">left</a>
+              </button>
+              <button class="partner-content__btn">
+                <a class="partner-content__link partner-content__link--right" href="#">right</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-offset stories">
+      <div class="container">
+        <div class="stories__container">
+          <div class="stories__top flex">
+            <h2 class="title stories__title">
+              Trending stories
+            </h2>
+            <a class="stories__link" href="#">
+              View all
+            </a>
+          </div>
+          <div class="stories__content stories-content flex">
+            <div class="stories-content__blog stories-content__blog--holidays">
+              <img class="stories-content__img" src="img/stories/image1.png" alt="holidays">
+              <h3 class="stories-content__title">
+                The many benefits of&nbsp;taking a&nbsp;healing holiday
+              </h3>
+              <p class="stories-content__descr">
+                &lsquo;Helaing holidays&rsquo; are on&nbsp;the rise tohelp maximise your health and happines...
+              </p>
+              <a class="stories-content__link" href="#">
+                Read more
+              </a>
+            </div>
+            <div class="stories-content__blog stories-content__blog--japan">
+              <img class="stories-content__img" src="img/stories/image2.png" alt="japan">
+              <h3 class="stories-content__title">
+                The best Kyoto restaurant to&nbsp;try Japanese food
+              </h3>
+              <p class="stories-content__descr">
+                From tofu to&nbsp;teahouses, here&rsquo;s our guide to&nbsp;Kyoto&rsquo;s best restaurants
+                to&nbsp;visit...
+              </p>
+              <a class="stories-content__link" href="#">
+                Read more
+              </a>
+            </div>
+            <div class="stories-content__blog stories-content__blog--yucatan">
+              <img class="stories-content__img" src="img/stories/image3.png" alt="yucatan">
+              <h3 class="stories-content__title">
+                Skip Chichen Itza and head to&nbsp;this remote Yucatan
+              </h3>
+              <p class="stories-content__descr">
+                It&rsquo;s remote and challenging to&nbsp;get, but braving the jungle and exploring these ruins without
+                the...
+              </p>
+              <a class="stories-content__link" href="#">
+                Read more
+              </a>
+            </div>
+            <div class="stories-content__blog stories-content__blog--surfing">
+              <img class="stories-content__img" src="img/stories/image4.png" alt="surfing">
+              <h3 class="stories-content__title">
+                Surf&rsquo;s up&nbsp;at&nbsp;these beginner spots around the world
+              </h3>
+              <p class="stories-content__descr">
+                If&nbsp;learning to&nbsp;surf has in&nbsp;on&nbsp;your to-do list for a&nbsp;while, the good
+                news&nbsp;is: it&rsquo;s never too late...
+              </p>
+              <a class="stories-content__link" href="#">
+                Read more
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <div class="footer__top footer-top flex">
+          <div class="footer-top__text">
+            <a class="footer-top__logo" href="#">
+              <img src="img/logo.svg" alt="logo">
+            </a>
+            <p class="footer-top__descr">
+              Plan and book your perfect trip with expert advice, travel tips destination information from&nbsp;us
+            </p>
+            <p class="footer-top__info">
+              &copy;2020 Thousand Sunny. All rights reserved
+            </p>
+          </div>
+          <div class="footer-top__destinations">
+            <h3 class="footer-top__title">
+              Destinations
+            </h3>
+            <ul class="footer-top__list">
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">
+                  Africa
+                </a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">
+                  Antarctica
+                </a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">
+                  Asia
+                </a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">
+                  Europe
+                </a>
+              </li>
+              <li class="footer-top__item">
+                <a class="footer-top__link" href="#">
+                  America
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__shop">
+            <h3 class="footer-top__shop">
+              Shop
+            </h3>
+            <ul class="footer-top__list">
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Destination Guide
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Pictorial &amp;&nbsp;Gifts
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Special Offers
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Delivery Times
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  FAQs
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top__interests">
+            <h3 class="footer-top__shop">
+              Interests
+            </h3>
+            <ul class="footer-top__list">
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Adventure Travel
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Art And Culture
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Wildlife And Nature
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Family Holidays
+                </a>
+              </li>
+              <li class="footer-top__link">
+                <a class="footer-top__link" href="#">
+                  Food And Drink
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__social footer-social flex">
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/twiter.svg" alt="twiter">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/facebook.svg" alt="facebook">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/inc.svg" alt="inc">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/in.svg" alt="in">
+          </a>
+          <a class="footer-social__link" href="#">
+            <img src="img/footer/youtube.svg" alt="youtube">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
